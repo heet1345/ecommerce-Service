@@ -70,4 +70,4 @@ jobs:
               --name ecommerce \
               --restart unless-stopped \
               -p 8080:8080 \
-              123456789012.dkr.ecr.ap-south-1.amazonaws.com/heet/ecommerce:latest
+              099164519597.dkr.ecr.ap-south-1.amazonaws.com/heet/ecommerce:latest
