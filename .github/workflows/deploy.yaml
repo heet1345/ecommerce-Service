@@ -59,9 +59,9 @@ jobs:
           script: |
             aws ecr get-login-password --region ap-south-1 | \
             docker login --username AWS --password-stdin \
-            123456789012.dkr.ecr.ap-south-1.amazonaws.com
+            099164519597.dkr.ecr.ap-south-1.amazonaws.com
 
-            docker pull 123456789012.dkr.ecr.ap-south-1.amazonaws.com/heet/ecommerce:latest
+            docker pull 099164519597.dkr.ecr.ap-south-1.amazonaws.com/heet/ecommerce:latest
 
             docker stop ecommerce || true
             docker rm ecommerce || true
